@@ -114,10 +114,10 @@
 
         NUM {
             bindings = <
-&kp SLASH               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                        &kp CARET         &kp F7  &kp F8  &kp F9  &kp F12
-&kp ASTERISK            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE       &kp EXCLAMATION   &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT MINUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL      &kp INT_MUHENKAN             &kp INTERNATIONAL_4  &kp LEFT_BRACKET  &kp F1  &kp F2  &kp F3  &kp F10
-&mt LEFT_CONTROL COLON  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE      &kp ENTER                    &kp BACKSPACE        &kp ENTER                                 &kp ESCAPE
+&kp KP_DIVIDE             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                             &kp CARET         &kp F7  &kp F8  &kp F9  &kp F12
+&kp KP_MULTIPLY           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN       &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE       &kp EXCLAMATION   &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT KP_MINUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL_AS400  &kp INT_MUHENKAN             &kp INTERNATIONAL_4  &kp LEFT_BRACKET  &kp F1  &kp F2  &kp F3  &kp F10
+&mt LEFT_CONTROL KP_PLUS  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE           &kp ENTER                    &kp BACKSPACE        &kp ENTER                                 &kp ESCAPE
             >;
         };
 
