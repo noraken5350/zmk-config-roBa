@@ -86,7 +86,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                                                      &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &kp MINUS                         &kp H                   &kp J  &kp K      &kp L    &kp SQT
+&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &kp COLON                         &kp H                   &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LANGUAGE_2      &lt_to_layer_0 3 INTERNATIONAL_4  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 2 BACKSPACE        &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
             >;
@@ -96,10 +96,10 @@
 
         kigou {
             bindings = <
-&kp ESCAPE        &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                                                &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&kp TAB           &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &trans     &trans                &trans               &trans            &kp EXCLAMATION    &kp QUESTION   &kp COLON      &kp TILDE
-&kp LEFT_SHIFT    &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp EQUAL  &kp INT_MUHENKAN      &kp INTERNATIONAL_4  &trans            &kp COMMA          &kp COMMA      &kp PERIOD     &kp AT_SIGN
-&kp LEFT_CONTROL  &kp LEFT_GUI     &kp UNDERSCORE        &trans                 &kp SPACE  &kp ENTER             &kp BACKSPACE        &kp ENTER                                                          &kp DEL
+&kp ESCAPE        &kp LS(NUMBER_6)  &kp LS(N9)      &kp LS(N0)  &trans                                                &kp ASTRK  &kp RIGHT_BRACKET  &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
+&kp TAB           &kp DOLLAR        &kp PERCENT     &kp LS(N7)  &trans     &trans                &trans               &trans     &kp EXCLAMATION    &kp QUESTION   &kp COLON      &kp TILDE
+&kp LEFT_SHIFT    &kp EXCLAMATION   &kp AT          &kp HASH    &kp EQUAL  &kp INT_MUHENKAN      &kp INTERNATIONAL_4  &trans     &trans             &kp COMMA      &kp PERIOD     &kp AT_SIGN
+&kp LEFT_CONTROL  &kp LEFT_GUI      &kp UNDERSCORE  &trans      &kp SPACE  &kp ENTER             &kp BACKSPACE        &kp ENTER                                                   &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -107,10 +107,10 @@
 
         NUM {
             bindings = <
-&kp SLASH              &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                        &kp CARET         &kp F7  &kp F8  &kp F9  &kp F12
-&kp ASTERISK           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE       &kp EXCLAMATION   &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT MINUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL      &kp INT_MUHENKAN             &kp INTERNATIONAL_4  &kp LEFT_BRACKET  &kp F1  &kp F2  &kp F3  &kp F10
-&mt LEFT_CONTROL PLUS  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE      &kp ENTER                    &kp BACKSPACE        &kp ENTER                                 &kp ESCAPE
+&kp SLASH               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                        &kp CARET         &kp F7  &kp F8  &kp F9  &kp F12
+&kp ASTERISK            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE       &kp EXCLAMATION   &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT MINUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL      &kp INT_MUHENKAN             &kp INTERNATIONAL_4  &kp LEFT_BRACKET  &kp F1  &kp F2  &kp F3  &kp F10
+&mt LEFT_CONTROL COLON  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE      &kp ENTER                    &kp BACKSPACE        &kp ENTER                                 &kp ESCAPE
             >;
         };
 
