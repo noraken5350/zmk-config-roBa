@@ -104,7 +104,7 @@
         kigou {
             bindings = <
 &kp ESCAPE        &kp LS(N7)       &kp ASTRK         &kp LS(N9)        &trans                                                   &kp ASTRK  &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&kp TAB           &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &trans        &trans                &trans               &trans     &kp EXCLAMATION  &kp QUESTION   &kp COLON      &kp TILDE
+&kp TAB           &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &trans        &trans                &trans               &trans     &kp EXCLAMATION  &kp QUESTION   &kp COLON      &kp LS(GRAVE)
 &kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT            &kp HASH          &kp KP_EQUAL  &kp INT_MUHENKAN      &kp INTERNATIONAL_4  &trans     &trans           &kp COMMA      &kp PERIOD     &kp AT_SIGN
 &kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(KP_MINUS)  &trans            &kp SPACE     &kp ENTER             &kp BACKSPACE        &kp ENTER                                                 &kp DEL
             >;
