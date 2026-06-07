@@ -105,7 +105,7 @@
             bindings = <
 &kp ESCAPE        &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                            &kp ASTRK                &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
 &kp TAB           &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp CARET      &kp LS(INTERNATIONAL_1)  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
-&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &trans                   &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
+&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &kp INT_YEN              &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
 &kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE      &kp ENTER           &kp BACKSPACE  &kp ENTER                                                               &kp DEL
             >;
 
