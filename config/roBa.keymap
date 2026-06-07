@@ -85,10 +85,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                                                        &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                      &kp MINUS                         &kp H                   &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 INT_MUHENKAN      &lt_to_layer_0 3 INTERNATIONAL_4  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER             &lt_to_layer_0 2 BACKSPACE        &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                                                      &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &kp MINUS                         &kp H                   &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LANGUAGE_2      &lt_to_layer_0 3 INTERNATIONAL_4  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 2 BACKSPACE        &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
