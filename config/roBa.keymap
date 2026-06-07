@@ -95,7 +95,7 @@
 &lt_to_layer_0 5 Q  &kp W         &kp E         &kp R                   &kp T                                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
 &kp A               &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &kp COLON                    &kp H                   &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LANG_HANJA      &lt_to_layer_0 1 LANGUAGE_1  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 3 BACKSPACE   &lt_to_layer_0 2 ENTER                             &mt RIGHT_CONTROL ESCAPE
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 2 BACKSPACE   &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -103,10 +103,10 @@
 
         kigou {
             bindings = <
-&kp ESCAPE        &kp LS(N7)       &kp ASTRK         &kp LS(N9)        &trans                                                &kp ASTRK  &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&kp TAB           &kp DOLLAR       &kp PERCENT       &kp LS(NUMBER_6)  &trans     &trans                &trans               &trans     &kp EXCLAMATION  &kp QUESTION   &kp COLON      &kp LS(GRAVE)
-&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT            &kp HASH          &kp PLUS   &kp INT_MUHENKAN      &kp INTERNATIONAL_4  &trans     &trans           &kp COMMA      &kp PERIOD     &kp AT_SIGN
-&kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(KP_MINUS)  &trans            &kp SPACE  &kp ENTER             &kp BACKSPACE        &kp ENTER                                                 &kp DEL
+&kp ESCAPE        &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                        &kp ASTRK            &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
+&kp TAB           &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &trans     &trans              &trans         &kp INTERNATIONAL_1  &kp EXCLAMATION  &kp QUESTION   &kp LS(APOS)   &kp CARET
+&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp PLUS   &kp LANGUAGE_2      &kp LANG1      &trans               &trans           &kp COMMA      &kp PERIOD     &kp AT_SIGN
+&kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE  &kp ENTER           &kp BACKSPACE  &kp ENTER                                                           &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
