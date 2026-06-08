@@ -103,10 +103,10 @@
 
         kigou {
             bindings = <
-&trans            &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                            &kp ASTRK                &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&kp TAB           &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp DEL        &kp LS(INTERNATIONAL_1)  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
-&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &kp INT_YEN              &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
-&kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE      &kp ENTER           &kp BACKSPACE  &kp ENTER                                                               &kp ESCAPE
+&trans            &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                            &kp ASTRK         &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
+&kp TAB           &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp DEL        &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
+&kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &kp INT_YEN       &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
+&kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE      &kp ENTER           &kp BACKSPACE  &kp ENTER                                                        &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -123,7 +123,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(PLUS)  &kp LG(D)       &kp UP_ARROW   &kp LG(E)        &kp LC(MINUS)
+&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(PLUS)  &trans          &kp UP_ARROW   &kp LC(PLUS)     &kp LC(MINUS)
 &kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &trans         &kp DEL         &kp HOME      &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
 &kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2      &kp LANGUAGE_1  &kp LC(Z)     &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &trans
 &kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER      &kp BACKSPACE   &kp ENTER                                                     &kp ESCAPE
@@ -143,9 +143,9 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &kp LG(UP_ARROW)  &trans               &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &kp LG(TAB)   &kp LG(UP_ARROW)  &kp LG(E)            &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(LEFT)  &kp LG(DOWN)      &kp LG(RIGHT_ARROW)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans        &trans            &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans        &kp LG(D)         &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                       &trans
             >;
 
