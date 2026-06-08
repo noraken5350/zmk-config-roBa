@@ -55,7 +55,7 @@
         };
 
         unders {
-            bindings = <&kp CARET>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <32 33>;
         };
     };
@@ -93,7 +93,7 @@
         default_layer {
             bindings = <
 &lt_to_layer_0 5 Q  &kp W         &kp E         &kp R                   &kp T                                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A               &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &lt_to_layer_0 7 DEL         &kp H                   &kp J  &kp K      &kp L    &kp MINUS
+&kp A               &kp S         &kp D         &kp F                   &kp G                   &kp LS(LG(S))                    &kp DEL                      &kp H                   &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LANG_HANJA      &lt_to_layer_0 1 LANGUAGE_1  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(Z)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 2 BACKSPACE   &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
             >;
@@ -123,7 +123,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(PLUS)  &trans          &kp UP_ARROW   &kp LC(PLUS)     &kp LC(MINUS)
+&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(PLUS)  &trans          &kp UP_ARROW   &trans           &kp LC(MINUS)
 &kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &trans         &kp DEL         &kp HOME      &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
 &kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2      &kp LANGUAGE_1  &kp LC(Z)     &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &trans
 &kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER      &kp BACKSPACE   &kp ENTER                                                     &kp ESCAPE
@@ -158,15 +158,6 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&trans     &trans     &kp LC(E)  &kp LC(R)  &trans                             &trans  &trans  &trans  &trans  &trans
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(V))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans     &trans     &trans         &trans      &trans  &trans                          &trans
             >;
         };
     };
