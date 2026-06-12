@@ -128,10 +128,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(RS(SEMICOLON))  &kp LC(S)       &kp UP_ARROW   &trans           &kp LC(MINUS)
-&kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &trans         &kp DEL         &kp HOME               &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2      &kp LANGUAGE_1  &kp LC(Z)              &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &mt RIGHT_SHIFT LC(N1)
-&kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER      &kp BACKSPACE   &kp ENTER                                                              &kp ESCAPE
+&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                  &kp RC(RS(SEMICOLON))  &kp LC(S)       &kp UP_ARROW   &trans           &kp LC(MINUS)
+&kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &kp LS(F3)      &kp DEL         &kp HOME               &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
+&kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2       &kp LANGUAGE_1  &kp LC(Z)              &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &mt RIGHT_SHIFT LC(N1)
+&kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER       &kp BACKSPACE   &kp ENTER                                                              &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PG_UP)>;
