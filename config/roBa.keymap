@@ -109,7 +109,7 @@
         kigou {
             bindings = <
 &trans            &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                            &kp ASTRK         &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&kp TAB           &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp DEL        &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
+&trans            &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp DEL        &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
 &kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &kp INT_YEN       &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
 &kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE      &kp ENTER           &kp BACKSPACE  &kp ENTER                                                        &kp ESCAPE
             >;
@@ -128,13 +128,13 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(RS(SEMICOLON))  &trans          &kp UP_ARROW   &trans           &kp LC(MINUS)
+&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                 &kp RC(RS(SEMICOLON))  &kp LC(S)       &kp UP_ARROW   &trans           &kp LC(MINUS)
 &kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &trans         &kp DEL         &kp HOME               &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2      &kp LANGUAGE_1  &kp LC(Z)              &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &trans
+&kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2      &kp LANGUAGE_1  &kp LC(Z)              &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &mt RIGHT_SHIFT LC(N1)
 &kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER      &kp BACKSPACE   &kp ENTER                                                              &kp ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PG_UP)>;
         };
 
         MOUSE {
