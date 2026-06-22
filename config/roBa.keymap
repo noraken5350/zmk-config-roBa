@@ -29,22 +29,17 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
 
-        muhennkann {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <11 10>;
         };
 
-        unders {
+        atto {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <32 33>;
         };
@@ -67,6 +62,16 @@
         BS {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <8 9>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 
@@ -103,7 +108,7 @@
         default_layer {
             bindings = <
 &lt_to_layer_0 5 Q  &kp W         &kp E         &kp R                           &kp T                                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A               &kp S         &kp D         &kp F                           &kp G                   &kp LS(LG(S))                    &kp DEL                      &kp H                   &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT A    &kp S         &kp D         &kp F                           &kp G                   &kp LS(LG(S))                    &kp SQT                      &kp H                   &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                           &kp B                   &lt_to_layer_0 6 LANG_HANJA      &lt_to_layer_0 1 LANGUAGE_1  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(BACKSPACE)  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 ENTER           &lt_to_layer_0 2 BACKSPACE   &lt_to_layer_0 3 ENTER                             &mt RIGHT_CONTROL ESCAPE
             >;
@@ -114,7 +119,7 @@
         kigou {
             bindings = <
 &trans            &kp LS(N7)       &kp ASTRK       &kp LS(N9)        &trans                                            &kp ASTRK         &kp LS(N9)       &kp AMPERSAND  &kp SEMICOLON  &kp MINUS
-&trans            &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &kp DEL        &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
+&trans            &kp DOLLAR       &kp PERCENT     &kp LS(NUMBER_6)  &kp CARET      &trans              &trans         &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION   &kp SQT        &kp LS(EQUAL)
 &kp LEFT_SHIFT    &kp EXCLAMATION  &kp AT          &kp HASH          &kp LS(MINUS)  &kp LANGUAGE_2      &kp LANG1      &kp INT_YEN       &kp PLUS         &kp COMMA      &kp PERIOD     &mt LSHFT LS(INT_RO)
 &kp LEFT_CONTROL  &kp LEFT_GUI     &kp LS(INT_RO)  &trans            &kp SPACE      &kp ENTER           &kp BACKSPACE  &kp ENTER                                                        &kp ESCAPE
             >;
@@ -124,19 +129,19 @@
 
         NUM {
             bindings = <
-&kp KP_DIVIDE             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                   &kp CARET         &kp F7  &kp F8  &kp F9  &kp F12
-&kp KP_MULTIPLY           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN  &kp LC(LA(KP_NUMBER_0))      &kp DEL         &kp EXCLAMATION   &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT KP_MINUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)  &kp LANG2                    &kp LANGUAGE_1  &kp LEFT_BRACKET  &kp F1  &kp F2  &kp F3  &kp F10
-&mt LEFT_CONTROL KP_PLUS  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE      &kp ENTER                    &kp BACKSPACE   &kp ENTER                                 &kp ESCAPE
+&kp KP_DIVIDE             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PG_UP                                                   &kp LC(LS(SEMICOLON))  &kp LC(S)  &kp UP_ARROW   &trans           &kp LC(MINUS)
+&kp KP_MULTIPLY           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PAGE_DOWN  &kp LC(LA(KP_NUMBER_0))      &trans          &kp PG_UP              &kp LEFT   &kp DOWN       &kp RIGHT_ARROW  &kp LC(EXCLAMATION)
+&mt LEFT_SHIFT KP_MINUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)  &kp LANG2                    &kp LANGUAGE_1  &kp PAGE_DOWN          &kp HOME   &kp LC(SPACE)  &kp LS(SPACE)    &kp END
+&mt LEFT_CONTROL KP_PLUS  &kp PERIOD       &kp KP_NUMBER_0  &trans           &kp SPACE      &kp ENTER                    &kp BACKSPACE   &kp ENTER                                                         &kp ESCAPE
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE         &kp LS(TAB)     &kp UP_ARROW    &kp PG_UP            &kp PAGE_DOWN                                  &kp RC(RS(SEMICOLON))  &kp LC(S)       &kp UP_ARROW   &trans           &kp LC(MINUS)
-&kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END        &kp LS(F3)      &kp DEL         &kp HOME               &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT     &kp LC(Z)       &kp LC(SPACE)   &kp LS(RIGHT_ARROW)  &kp LC(A)      &kp LANG2       &kp LANGUAGE_1  &kp LC(Z)              &kp LC(A)       &kp LC(SPACE)  &kp LS(SPACE)    &mt RIGHT_SHIFT LC(N1)
-&kp RIGHT_CONTROL  &kp LEFT_WIN    &kp LEFT_ALT    &trans               &kp SPACE      &kp ENTER       &kp BACKSPACE   &kp ENTER                                                              &kp ESCAPE
+&kp ESCAPE         &kp F7        &kp F8        &kp F9  &kp F12                                    &kp RC(RS(SEMICOLON))  &kp LC(S)       &kp UP_ARROW   &trans           &kp LC(MINUS)
+&kp LEFT_SHIFT     &kp F4        &kp F5        &kp F6  &kp F11    &kp LS(F3)      &kp DEL         &kp PG_UP              &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp LC(EXCLAMATION)
+&kp LEFT_SHIFT     &kp F1        &kp F2        &kp F3  &kp F10    &kp LANG2       &kp LANGUAGE_1  &kp PAGE_DOWN          &kp HOME        &kp LC(SPACE)  &kp LS(SPACE)    &mt RIGHT_SHIFT LC(END)
+&kp RIGHT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &trans  &kp SPACE  &kp ENTER       &kp BACKSPACE   &kp ENTER                                                              &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PG_UP)>;
@@ -144,10 +149,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
