@@ -78,6 +78,16 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <27 26>;
         };
+
+        kannsuuhennsyuu {
+            bindings = <&kp LS(F3)>;
+            key-positions = <3 4>;
+        };
+
+        selhennsyuu {
+            bindings = <&kp LC(EXCLAMATION)>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
